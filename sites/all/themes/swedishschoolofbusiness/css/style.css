@@ -1,0 +1,1005 @@
+body{ padding-right: 0 !important; }
+
+.page-container{
+	overflow-x: hidden;
+}
+
+header{
+  background-color: #fff;
+  padding: 20px 20px 10px;
+  position: fixed;
+	width: 100%;
+	z-index: 15;
+	box-shadow: -1px 2px 13px 0px #5b5b5b;
+}
+
+.logo img {
+    width: 75%;
+}
+
+.navbar-nav > li > a, .navbar-nav > li > a:hover{
+	color: black;
+}
+
+.menu.nav.navbar-nav{ float:right; }
+#navbar{ background:none; border:none; }
+.contact-info{ float: right; margin: 0 20px; }
+.contact-info a{ color: #333; }
+
+.ask-button{
+	padding: 10px 30px;
+  background: #ebcb7d;
+  border: none;
+  color: #0f123d;
+  text-transform: uppercase;
+  font-weight: bold;
+	margin-top; 5px;
+  margin-bottom: 20px;
+}
+
+.appointment-button{
+	margin-top: 20px;
+  padding: 10px 50px;
+  color: black;
+  font-weight: bold;
+  background: #ffffff;
+  border: none;
+}
+
+.appointment-button:hover {
+    color: #000e26;
+    background: #ebcb7d;
+}
+
+.ask-button.blue-bg:hover{ background:#0f123d; color: #ffffff; }
+.ask-button.white-bg:hover{ background: #ffffff; color: #0f123d; }
+
+.padding-b-300{
+    padding-bottom: 800px;
+    padding-top: 340px;
+}
+.white-title{
+  color:#ffffff;
+}
+.color-white{
+  color:#ffffff;
+}
+
+.name h1{
+	font-size: 18px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-transform: none;
+    font-weight: bold;
+}
+
+h1{
+  text-transform:uppercase;
+  margin-bottom:40px;
+  line-height:1.5;
+}
+.section-title{
+  font-size: 27px;
+  font-weight: bold;
+}
+.section-title:not(.white-title){
+	float:right; 
+	margin-right: 20px;
+}
+.section-title a:hover, .section-title a{
+	text-decoration: none;
+	color: #333;
+	}
+
+.section-title a:before, .date-start h3 a:before{
+    content: "";
+    display: block;
+    margin-top: -220px;
+    position: absolute;
+}
+
+.stoimost:after{
+  content:url(/sites/all/themes/swedishschoolofbusiness/uploads/stoimost/fantik.png);
+  position:absolute;
+  padding-top:15px;
+}
+.first-block{
+  font-weight:bold;
+}
+div[class*="img-"]{
+	position:relative;
+}
+.img-0{ padding-top: 370px; padding-bottom: 650px; background-size: 100% 100% !important; background-position-y: 60px !important; }
+.img-1{ margin-top: -360px; padding-top: 240px; background-size: 100% 100% !important; z-index:2; }
+.img-2{ margin-top: -350px; z-index:1; padding-left: 185px; padding-right: 185px; }
+.img-3{ margin-top: -450px; z-index: 2; }
+.img-4{ margin-top: -250px; padding-top:170px;padding-bottom:1800px;}
+.img-5{ margin-top: -550px; }
+.img-6{ margin-top: -566px; z-index:2; }
+.img-7{ margin-top: -500px; padding: 340px 150px 700px; }
+.img-8{ padding: 200px 150px 700px; }
+.img-9{ padding: 0 150px; }
+.img-10{ padding:200px 150px 200px;}
+.img-11{ padding: 0 150px 350px;clear: both; }
+
+.custom-list li {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 60px;
+    list-style-type: none;
+    font-family: 'Open Sans', Arial, serif;
+}
+.custom-list li:before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+}
+.custom-list.icon-pre li:before{
+    top:-30px;
+}
+/*
+.icon-pri{
+   padding-left: 70px;
+}
+*/
+.custom-list .icon-pri-1:before{
+  content: url(/sites/all/themes/swedishschoolofbusiness/uploads/icon-pri/pri1.png);
+	border-right: 1px solid #ebcb7d;
+    height: 570%;
+    padding-right: 5px;
+    top: -7px;
+}
+.custom-list .icon-pri-2:before{
+  content: url(/sites/all/themes/swedishschoolofbusiness/uploads/icon-pri/pri2.png);
+	top:-10px;
+}
+.custom-list .icon-pri-3:before{
+  content: url(/sites/all/themes/swedishschoolofbusiness/uploads/icon-pri/pri3.png);
+	top:5px;
+}
+.custom-list .icon-pri-4:before{
+  content: url(/sites/all/themes/swedishschoolofbusiness/uploads/icon-pri/pri4.png);
+}
+.custom-list .icon-pri-5:before{
+  content: url(/sites/all/themes/swedishschoolofbusiness/uploads/icon-pri/pri5.png);
+	border-right: 1px solid #ebcb7d;
+  height: 475%;
+  padding-right: 10px;
+}
+.custom-list .icon-pri-6:before{
+  content: url(/sites/all/themes/swedishschoolofbusiness/uploads/icon-pri/pri6.png);
+}
+.custom-list .icon-pri-7:before{
+  content: url(/sites/all/themes/swedishschoolofbusiness/uploads/icon-pri/pri7.png);
+	top:-10px;
+}
+.custom-list .icon-pri-8:before{
+  content: url(/sites/all/themes/swedishschoolofbusiness/uploads/icon-pri/pri8.png);
+	top:-5px;
+}
+.icon-pre li{
+  padding-left:140px;
+  margin-bottom:100px;
+}
+.custom-list .icon-pre-1:before{
+  content: url(/sites/all/themes/swedishschoolofbusiness/uploads/icon-pre/pre1.png);
+}
+.custom-list .icon-pre-2:before{
+  content: url(/sites/all/themes/swedishschoolofbusiness/uploads/icon-pre/pre2.png);
+}
+.custom-list .icon-pre-3:before{
+  content: url(/sites/all/themes/swedishschoolofbusiness/uploads/icon-pre/pre3.png);
+}
+.custom-list .icon-pre-4:before{
+  content: url(/sites/all/themes/swedishschoolofbusiness/uploads/icon-pre/pre4.png);
+}
+.custom-list .icon-pre-5:before{
+  content: url(/sites/all/themes/swedishschoolofbusiness/uploads/icon-pre/pre5.png);
+}
+.custom-list .icon-pre-6:before{
+  content: url(/sites/all/themes/swedishschoolofbusiness/uploads/icon-pre/pre6.png);
+}
+.custom-list .icon-pre-7:before{
+  content: url(/sites/all/themes/swedishschoolofbusiness/uploads/icon-pre/pre7.png);
+}
+form input {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #dfb347a1;
+  padding:10px 20px;
+}
+.appointment-field{
+  margin:20px;
+	width:245px;
+}
+.form-appointment{
+  text-align:center;
+}
+
+.custom-list .icon-pri .pris{
+	padding-left: 0;
+}
+
+input[type="text"]::-webkit-input-placeholder {color:#f3f3f5;}
+input[type="text"]::-moz-placeholder          {color:#f3f3f5;}
+input[type="text"]:-ms-input-placeholder     {color:#f3f3f5;}
+input[type="text"]:-moz-placeholder          {color:#f3f3f5;}
+
+.count{
+  border:3px solid #ebcb7d;
+  padding:70px 20px;
+  width:55%;
+  margin:auto;
+}
+
+#thanksModal .modal-body{
+	padding: 30px 20px;
+}
+
+.programma-main{
+  background:#ffffff;
+  padding:50px 50px;
+  box-shadow: 30px 30px #0f123d;
+  position:relative;
+  z-index: 10;
+}
+.programma-bord{
+	border-left:1px solid #ebcb7d;
+}
+.programma-bord h3{
+	font-weight:bold;
+}
+.programma-bord .date-start{
+	text-align:right;
+}
+.programma-bord .raspisanie{
+	padding-right:0;
+}
+.start{
+	border-bottom:10px solid #f5e5be;
+	text-align:right;
+	padding-top:17px;
+}
+.programma{
+  padding:0px 30px;
+  border-left:1px solid #ebcb7d;
+}
+.down{
+	padding-bottom:100px;
+	padding-left:15px;
+}
+.buttom-down .download{
+	font-size:20px;
+	padding:28px;
+	text-transform:none;
+}
+.download:before{
+    content:url(/sites/all/themes/swedishschoolofbusiness/uploads/down.png);
+    padding-right:5px;
+  }
+.list{
+  margin-bottom:10px;
+}
+
+img.person-img {
+    width: 90%;
+}
+
+.button{
+	border: none;
+  color:#ffffff;
+  padding: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top:20px;
+}
+
+.button-more-info{
+  width:100%;
+  color:#ffffff;
+	background:#0f123d;
+}
+.button-more-info:hover{
+	background: #ebcb7d;
+}
+
+.region .views-slideshow-controls-text-pause, .region .views-slideshow-controls-text-play{
+	display: none;
+}
+
+.region .views-slideshow-controls-text-previous {
+  transform: rotateZ(180deg);
+	left: -40px;
+}
+
+.region .views_slideshow_controls_text_next{
+	right: -40px;
+}
+
+.region .views_slideshow_controls_text_next, .region .views-slideshow-controls-text-previous {
+  display: inline-block;
+	position: absolute;
+  width: 40px;
+  height: 40px;
+  background: url(/sites/all/themes/swedishschoolofbusiness/uploads/arrows/right.png) no-repeat;
+  font-size: 0;
+	top: 50%;
+  color: #444; 
+	background-size: contain;
+  opacity: 0.1;
+}
+
+.region .views_slideshow_controls_text_next:hover, .region .views-slideshow-controls-text-previous:hover{
+	opacity: 0.9;
+}
+
+.testimonials-text-wrapper .testimonials-item .person{
+	width: 60%;
+  float: left;
+  margin-bottom: 33px;
+}
+
+.testimonials-video-wrapper .testimonials-item .person{
+  float: left;
+	margin-top: 10px;
+  margin-bottom: 33px;
+}
+
+.testimonials-text-wrapper .testimonials-item .testimonials-img{
+	width: 33%;
+    float: right;
+    overflow: hidden;
+    height: 45px;
+}
+
+.testimonials-text-wrapper .testimonials-img img{
+    margin: -27px 0;
+    width: 100px;
+    height: auto;
+}
+
+.testimonials-text-wrapper .testimonials-item .testimonials-content{
+	text-align: justify;
+	clear: both;
+}
+
+h2,h3{
+  text-transform:uppercase;
+}
+.programma h2{
+  position:relative;
+  left:-15px;
+  margin-bottom:20px;
+}
+.menu.nav.navbar-nav>.leaf>a:hover{
+	background:none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.leaf {
+ 	display: inline-block;
+  color: #0f123d;
+  text-decoration: none;
+}
+
+.leaf a:hover {
+    color: #ebcb7d !important;
+}
+
+.menu_item{
+  list-style-image: url(/sites/all/themes/swedishschoolofbusiness/uploads/move.png);
+
+}
+.menu_item a{
+    color:#ffffff;
+  text-decoration:none;
+}
+.menu_item:hover{
+  margin-left:10px;
+  transition:0.8s;
+
+}
+.creator{
+  float:right;
+  color:#ffffff;
+}
+.creator a{
+  color:#ffffff;
+  text-decoration:none;
+}
+.creator img{
+  margin-left:10px;
+  width:20%;
+}
+footer{
+  padding-top:160px;
+  color:#ffffff;
+}
+.header-two{
+  max-width:1140px;
+  margin:auto;
+}
+
+@media screen and (min-width: 426px){
+	.navbar.navbar-default{
+		display:none;
+	}
+}
+
+@media screen and (max-width: 426px){
+
+.name{
+	left: 20px !important;
+	top: 0 !important;
+    position: relative !important;
+	z-index: 11;
+    margin-bottom: -70px;
+	padding: 0 20px 20px 10px;
+}
+
+.name h1 {
+	font-size: 20px;
+}
+
+.programma-main {
+    padding: 50px 10px;
+}
+
+.custom-list.icon-pri {
+    padding-left: 0 !important;
+}
+
+.buttom-down .download{
+	font-size: 18px;
+    padding: 18px;
+}
+
+	.programma-bord .down{
+		padding-bottom: 0 !important;
+	}
+
+	.img-0 .col-md-6 {
+		width: 100% !important;
+	}
+	.img-0 .col-md-offset-5 {
+		margin-left: 0 !important;
+	}
+
+div[class*="img"] {
+    top: 0;
+		padding-left: 0;
+		padding-right: 0;
+		background: none !important;
+		display:inline-block;
+		padding-bottom:0px;
+	}
+	
+  .full-width.image.img-10{
+		display:none;
+	}
+	footer{
+		background-size: cover !important
+	}
+	footer .container{
+		padding-top: 70px;
+	}
+	.section-title{
+		float: none !important;
+		text-align: center;
+	}
+	.programma-main{
+		box-shadow: none !important;
+	}
+	.color-white, .white-title{
+		color: black !important;
+	}
+	form input {
+		background-color: rgb(212, 185, 116);
+	    width: 80% !important;
+		margin: 7px 20px !important;
+	}
+	.icon-pre li{
+		margin-bottom: 70px;
+	}
+	.icon-pre .icon-pre-4{
+		margin-bottom: 0;
+	}
+	.icon-pre{
+		padding-left: 10px !important;	
+	}
+	img:not(.img-1) .fixed .col-xs-12{
+		padding: 0 20px !important;
+	}
+	.img-9 .col-xs-12{
+		padding: 0 14px !important;
+	}
+	.bx-controls .bx-next {
+    top: 1305px !important;
+	}
+	.ask-btn-clr {
+    margin-top: 20px;
+    padding: 10px 50px;
+    color: #ffffff;
+    font-weight: bold;
+    background: #0f123d;
+    border: none;
+		margin-bottom:20px;
+	}
+	.custom-list .icon-pri-1:before{
+		height:470%;
+	}
+	.custom-list .icon-pri-5:before{
+		height: 360%;
+	}
+	.form-appointment .appointment-button{
+		color: white;
+		background: #0f123d;
+	}
+	.img-3{
+		margin-top:-400px;
+	}
+	.img-1 {
+		margin-top: -260px;
+	}
+	.img-4{
+		padding-top:250px;
+	}
+	.img-5{
+		margin-top:0px;
+		padding-top:0;
+	}
+	.img-6 {
+		margin-top: -330px;
+		padding-bottom:20px;
+	}
+	.img-7 {
+		margin-top: -300px;
+	}
+	.img-7, .img-8{
+		padding-left: 60px !important;
+		padding-right: 60px !important;
+	}
+	.img-8{
+		padding-bottom: 750px;
+		padding-top: 50px;
+	}
+	.img-10 {
+		padding: 0px 150px 0px;
+	}
+	.col-xs-12.col-md-4.testimonials-item.ti{
+		text-align:center;
+	}
+	
+	.count{
+		width: 100% !important;
+		padding: 50px 30px;
+	}
+	
+	.testimonials-item iframe{
+		width: 100%;
+	}
+	
+	.footer_navlist{
+		display: none;
+	}
+	
+	.social {
+		text-align: center !important;
+		margin-top: 20px;
+	}
+	
+	.custom-list.icon-pre li:before{
+		top:-18px;
+	}
+	.unique{
+		text-align:center;
+	}
+	.foomenu{
+		text-align:center;
+		margin-top:10px;
+	}
+	footer>.container{
+		text-align:center;
+	}
+	.footer_navlist{
+		padding-left:0;
+	}
+	.creator{
+		float: none;
+		margin: 0px 0 10px;
+	}
+	.logo.navbar-btn.pull-left img{
+		width:65%;
+		padding-left:10px;
+	}
+	.container-fluid{
+		text-align:center;
+	}
+	.header-part>.col-xs-12{
+		display:none;
+	}
+	.img-0 {
+    padding-top: 120px;
+	}
+	header{
+		padding-bottom:0px;
+		z-index:12;
+	}
+	.navbar-nav{
+		padding-top:20px;
+}}
+
+@media screen and (min-width: 992px){
+	.header-two {
+		max-width: 940px;
+	}
+}
+
+@media screen and (min-width: 768px){
+
+	.modal-header .modal-title{
+		font-size:20px;
+		text-align:center;
+	}
+	.modal-header .button{
+		margin-top:-25px;
+	}
+	.modal-body .appointment-field{
+		width: 80%;
+		background: #0f123d;
+		color:#ffffff;
+	}
+	.modal-body .ask-btn-clr{
+		background:#ebcb7d;
+	}
+	.modal-header{
+		padding-bottom:0;
+	}
+	.modal-header{
+		border:none;
+	}
+.header-two {
+    max-width: 720px;
+}
+.navbar-nav > li > a {
+	padding-top: 10px;
+	margin-right: 15px;
+}
+
+.header-two {
+    max-width: 1140px;
+}
+.inst{
+  font-weight:bold;
+  font-size:15px;
+}
+.container{
+  padding-top:50px;    
+  }
+  .container h3{
+    margin-bottom:20px;
+    font-size:20px;
+    text-transform:none;
+  }
+  .social{
+    text-align:right;
+    line-height:1.6;
+    margin-bottom:50px;
+    padding-left:0px;
+    padding-right:0px;
+  }
+  .social-row{
+    margin-bottom:10px;
+  }
+  .facebook:before{
+    content:url(/sites/all/themes/swedishschoolofbusiness/uploads/facebook.png);
+  }
+  .instagram{
+    content:url(/sites/all/themes/swedishschoolofbusiness/uploads/insta.png);
+  }
+  .phone:before{
+    content:url(/sites/all/themes/swedishschoolofbusiness/uploads/phone.png);
+    padding-right:5px;
+  }
+  .email:before{
+    content:url(/sites/all/themes/swedishschoolofbusiness/uploads/email.png);
+    padding-right:5px;
+  }
+  .unique{
+    padding-top:30px;
+  }
+  .unique h3{
+    margin-bottom:40px;
+  }
+  .name{
+    width: 70%;
+    float: left;
+    left: 220px;
+    top: 120px;
+    position: absolute;
+	text-shadow: 0 0 20px white;
+  }
+  .telephone, .mail{
+    margin-right: 15px;
+  }
+  .social-media{
+    width: 7.5%;
+    float: right;
+  }
+  .social-icons{
+    float:right;
+    margin-right:15px;
+  }
+  .telephone:before{
+    content:url(/sites/all/themes/swedishschoolofbusiness/uploads/phone.png);
+    margin-right: 10px;
+  }
+  .mail:before{
+    content:url(/sites/all/themes/swedishschoolofbusiness/uploads/email.png);
+    margin-right: 10px;
+  }
+	.leaf.last:hover::after{
+		width:0;
+		border:none;
+	}
+	
+}
+
+.name h1{}
+
+.company{
+	float:right;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.brands{
+	text-align:center;
+}
+.brands img{
+	  padding-right: 30px;
+    padding-left: 0;
+    margin-bottom: 25px;
+}
+.bx-wrapper {
+  margin-top: 50px !important
+}
+.bx-controls a {
+  top: 0 !important;
+  bottom: 0!important;
+  left: 5px !important;
+}
+.bx-controls .bx-prev {
+  top: 0px !important;
+}
+.bx-controls .bx-next {
+  top: 930px !important;
+}
+.bx-wrapper .bx-prev{
+	background:url(/sites/all/themes/swedishschoolofbusiness/uploads/arrows/arrowprev1.png) no-repeat;
+}
+.bx-wrapper .bx-next{
+	background:url(/sites/all/themes/swedishschoolofbusiness/uploads/arrows/arrownext1.png) no-repeat;
+}
+.bx-wrapper .bx-controls-direction a{
+	width:40px;
+	height:40px;
+	margin-top:-30px;
+}
+.bx-wrapper {
+    -moz-box-shadow: none;
+    -webkit-box-shadow:none;
+    box-shadow: none;
+    border: none;
+    background: none;
+}
+.bx-wrapper .bx-next:focus, .bx-wrapper .bx-next:hover {
+    background-position: unset;
+}
+.col-md-7 img{
+	padding:10px;
+	padding-left:0;
+}
+.scrollup{
+  width:64px;
+  height:64px;
+  opacity:0.7;
+  position:fixed;
+  bottom:0;
+	right:20px;
+	display:none;
+	text-indent:-9999px;
+	background: url('/sites/all/themes/swedishschoolofbusiness/uploads/arrows/icon_top.png') no-repeat;
+	z-index: 20;
+}
+.navbar-default {
+    background:none;
+}
+.navbar {
+    position: unset;
+    min-height: 50px;
+    margin-bottom: 20px;
+		border:none;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #ebcb7d;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+.navbar-default .navbar-toggle{
+		background-color: #0f123d;
+}   
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+	.name {
+		left: 100px;
+		top: 120px;
+	}
+	.navbar-header{
+		padding: 0 80px;
+	}
+	.navbar-nav > li > a {
+		padding: 10px 40px !important;
+	}
+	footer{
+		background-size: 200% 100% !important;
+	}
+	.img-0 {
+		padding-top: 190px;
+		padding-bottom: 800px;
+		background-position-y: 30px !important;
+	}
+	.img-0 .col-md-offset-5{
+		margin-left: 24%;
+	}
+	.img-0 .col-md-6{
+		width: 70%;
+	}
+	.navbar-nav > li > a {
+		padding: 10px 8px;
+	}
+}
+
+@media screen and (min-device-width: 980px) and (max-device-width: 1024px){
+	.img-0 .col-md-offset-5{
+		margin-left: 31.66666667%;
+	}
+	.img-0 .col-md-6{
+		width: 60%;
+	}
+	.img-1{
+		margin-top: -460px !important;
+		padding-top: 230px !important;
+		padding-bottom: 900px !important;
+	}
+	.img-2 {
+		padding: 250px 0 800px;
+	}
+	.img-3, .img-6{
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+	.img-3  section.col-xs-12.col-md-12, .img-6 section.col-xs-12.col-md-12{
+		padding-top: 75px !important;
+	}
+	.img-4 {
+		margin-top: -250px;
+		padding-bottom: 1900px;
+	}
+	.img-5 {
+		margin-top: -350px;
+		padding-bottom: 700px;
+	}
+	.img-0 .col-md-8{
+		width: 70% !important;
+	}
+	.custom-list .icon-pri-5:before{
+		height: 460% !important;
+	}
+	.custom-list li{
+		height: auto !important;
+	}
+}
+
+@media screen and (min-device-width: 765px) and (max-device-width: 1280px){
+	.navbar-nav {
+		padding-right: 10px;
+	}
+	.img-0 {
+		padding-top: 180px;
+		padding-bottom: 820px;
+	}
+	.img-1 {
+		margin-top: -460px;
+		padding-top: 230px;
+		padding-bottom: 1100px;
+		background-size: cover !important;
+	}
+	.img-2 {
+		padding: 250px 0 900px;
+	}
+	.img-2 .col-xs-12{
+		width: 50%;
+	}
+	.img-7  section{
+		margin-top: 0;
+	}
+	.img-7 section .col-xs-12 {
+		width: 24%;
+	}
+	.custom-list .icon-pri-1:before{
+		height: 460%;
+	}
+	.img-2 .icon-pre, .img-7.icon-pri{
+		padding-top: 0 !important;
+	}
+	.custom-list li{
+		height: 70px;
+	}
+	.count {
+		padding: 30px 30px;
+		width: 80%;
+	}
+	.navbar-header {
+		padding: 0;
+	}
+	.logo img {
+		width: 110px;
+	}
+	.navbar-nav > li > a{
+		margin-right: 0;
+	}
+	.contact-info {
+		margin: 0;
+	}
+	.img-7{
+		padding: 340px 10px 700px;
+	}
+	.img-8 {
+		padding: 200px 10px 700px;
+	}
+	.img-9 {
+		padding: 0 20px;
+	}
+	.img-11 {
+    padding: 0 20px 350px;
+	}
+}
+
+@media screen and (min-width: 1920px){
+	.img-0 .name {
+		left: 450px;
+	}
+	.img-0 .col-md-6 {
+		width: 30%;
+	}
+	.img-0 > .fixed > .col-md-offset-5 {
+		margin-left: 50%;
+	}
+	.img-1 {
+		margin-top: -320px;
+	}
+	.img-1 .col-md-6 {
+		width: 35%;
+	}
+	.img-2 .icon-pre {
+		padding-top: 0 !important;
+	}
+	.img-2 .col-md-6 {
+		width: 45%;
+	}
+	.img-7 {
+		padding: 340px 150px 900px;
+	}
+	.img-8 {
+    padding: 200px 150px 600px;
+	}
+	.img-9 iframe.youtube-field-player {
+		width: 100%;
+	}
+	.img-11 {
+		padding: 50px 150px 350px;
+	}
+}
